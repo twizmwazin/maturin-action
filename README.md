@@ -84,7 +84,7 @@ you will need to setup QEMU before using this action, for example
 
 ```yaml
 - name: Setup QEMU
-  uses: docker/setup-qemu-action@v1
+  uses: docker/setup-qemu-action@v3
 - uses: PyO3/maturin-action@v1
   with:
     command: build
